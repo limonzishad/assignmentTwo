@@ -16,7 +16,7 @@ h2{
 }
 .firstSection{
     display: flex;
-    margin: 5%;
+    margin: 5% 5% 0 5%;
     padding: 5%;
 }
 .cameraDiv{
@@ -27,6 +27,7 @@ h2{
     padding-right: 210px;
     margin-bottom: 16px;
 }
+/* pre-order button */
 .orderButton{
     color: white;
     font-size: 16px;
@@ -48,4 +49,15 @@ h2{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position-x: -10px;
+}
+/* logo section */
+.logos{
+    margin: 0 20%;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+    padding: 5% 0;
+}
+.logo{
+    width: 50%;
 }
