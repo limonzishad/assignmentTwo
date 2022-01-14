@@ -61,3 +61,37 @@ h2{
 .logo{
     width: 50%;
 }
+/* third section */
+.thirdSection{
+    margin: 5% 15%;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+}
+.product{
+    padding: 15px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.fa-star-half-alt, .fa-star{
+    color: #FB8200;
+}
+.price{
+    font-weight: 400;
+    font-size: 24px;
+}
+.rating{
+    margin-left: 5px;
+    color: #5E6366;
+    font-size: 16px;
+    font-weight: 700;
+}
+.productInfo{
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+}
