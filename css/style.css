@@ -9,7 +9,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* for mobile screen */
+/* mobile screen */
 @media (max-width: 576px) {
     /* title*/
     h2{
@@ -79,7 +79,7 @@ body{
     }
     /* second section */
     .logos{
-        margin: 0 20%;
+        margin: 4% 20%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -100,13 +100,13 @@ body{
         color: #3A3A3A;
         font-size: 30px;
         text-align: center;
-        margin-top: 80px;
+        margin-top: 50px;
     }
     .products{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(9, 1fr);
-        grid-gap: 40px;
+        grid-gap: 30px;
         justify-content: center;
         padding: 30px 50px;
     }
@@ -156,7 +156,6 @@ body{
         margin: 5% 10%;
     }
     .npInfo{
-        padding-right: 10%;
         text-align: center;
     }
     .npInfo h2{
@@ -261,7 +260,7 @@ body{
     }
     /* second section */
     .logos{
-        margin: 0 20%;
+        margin: 4% 20%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -282,7 +281,7 @@ body{
         color: #3A3A3A;
         font-size: 30px;
         text-align: center;
-        margin-top: 80px;
+        margin-top: 50px;
     }
     .products{
         display: grid;
@@ -319,7 +318,7 @@ body{
     }
     .seeMore{
         text-align: right;
-        margin-right: 55px;
+        margin-right: 46%;
     }
     .seeMore a{
         margin-right: 13%;
@@ -331,7 +330,7 @@ body{
     .lastSection{
         display: grid;
         grid-template-columns: 1fr;
-        margin: 5%;
+        margin: 5% 15%;
     }
     .npImage{
         width: 80%;
