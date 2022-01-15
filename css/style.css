@@ -568,7 +568,7 @@ body{
     /* last section */
     .lastSection{
         display: flex;
-        margin: 5%;
+        margin: 5% 8%;
     }
     .npImage{
         width: 50%;
