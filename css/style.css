@@ -114,16 +114,19 @@ h2{
 footer{
     text-align: center;
     color:white;
-    height: 230px;
+    height: 210px;
     background-color: #0A0826;
 }
 .footerText{
     padding-top: 50px;
+}
+.footerText h3{
+    margin-bottom: 5px;
 }
 .footerIcons{
     display: flex;
     margin: 10px;
     justify-content: center;
     column-gap: 10px;
-    padding-bottom: 50px;
+    margin-bottom: 0;
 }
