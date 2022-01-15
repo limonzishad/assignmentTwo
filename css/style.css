@@ -176,6 +176,7 @@ body{
     }
     .npInfo{
         text-align: center;
+        padding: 0 5%;
     }
     .npInfo h2{
         color: #0A0826;
@@ -187,6 +188,7 @@ body{
     }
     .npInfo button{
         border-radius: 0;
+        margin-bottom: 3%;
     }
     /* footer */
     footer{
@@ -375,7 +377,7 @@ body{
         margin: 5% 10%;
     }
     .npInfo{
-        padding-right: 10%;
+        padding: 0 5%;
         text-align: center;
     }
     .npInfo h2{
@@ -409,7 +411,6 @@ body{
         column-gap: 10px;
         padding-bottom: 50px;
     }
-    
 }
 /* laptop/pc screen */
 @media (min-width: 769px){
@@ -528,7 +529,7 @@ body{
         grid-template-rows: repeat(3, 1fr);
         grid-gap: 40px;
         justify-content: center;
-        padding: 30px 50px;
+        padding: 30px 250px;
     }
     .product{
         width: 300px;
@@ -557,7 +558,7 @@ body{
     }
     .seeMore{
         text-align: right;
-        margin-right: 108px;
+        margin-right: 225px;
     }
     .seeMore a{
         text-decoration: none;
