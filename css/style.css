@@ -375,6 +375,13 @@ body{
 }
 /* laptop/pc screen */
 @media (min-width: 769px){
+    /* title*/
+    h2{
+        padding-top: 60px;
+        color: #3A3A3A;
+        font-size: 50px;
+        font-weight: 700;
+    }
     .firstSection{
         display: flex;
         margin: 5% 5% 0 5%;
@@ -383,6 +390,7 @@ body{
     .about p{
         padding-right: 210px;
         margin-bottom: 16px;
+        text-align: justify;
     }
     /* pre-order button */
     .primaryButton{
@@ -492,7 +500,7 @@ body{
     }
     .seeMore{
         text-align: right;
-        margin-right: 55px;
+        margin-right: 108px;
     }
     .seeMore a{
         text-decoration: none;
@@ -509,14 +517,23 @@ body{
         margin-right: -10%;
     }
     .npImage img{
-        width: 50%;
+        width: 100%;
         margin-left: 10%;
     }
     .npInfo{
         padding-right: 10%;
+        margin-left: 20%;
+    }
+    .npInfo h2{
+        color: #0A0826;
+        font-size: 38px;
+        font-weight: 700;
     }
     .npInfo p{
         margin-bottom: 3%;
+        padding-right: 70px;
+        text-align: justify;
+        color: #6C6C6C;
     }
     .npInfo button{
         border-radius: 0;
