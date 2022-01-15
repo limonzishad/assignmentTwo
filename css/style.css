@@ -17,14 +17,14 @@ h2{
 .firstSection{
     display: flex;
     margin: 5% 5% 0 5%;
-    padding: 5%;
+    padding: 0 5% 5% 0;
 }
 .about p{
     padding-right: 210px;
     margin-bottom: 16px;
 }
 /* pre-order button */
-.orderButton{
+.primaryButton{
     color: white;
     font-size: 16px;
     font-weight: 700;
@@ -35,7 +35,7 @@ h2{
     transition: 0.4s ease-in-out;
     cursor: pointer;
 }
-.orderButton:hover{
+.primaryButton:hover{
     color: black;
     background-color: transparent;
     border: 5px solid #E02C6D;
@@ -137,6 +137,28 @@ h2{
     text-decoration: none;
     color: #E02C6D;
     font-size: 16px;
+}
+/* last section */
+.lastSection{
+    display: flex;
+    margin: 5%;
+}
+.npImage{
+    width: 50%;
+    margin-right: -10%;
+}
+.npImage img{
+    width: 50%;
+    margin-left: 10%;
+}
+.npInfo{
+    padding-right: 10%;
+}
+.npInfo p{
+    margin-bottom: 3%;
+}
+.npInfo button{
+    border-radius: 0;
 }
 /* footer */
 footer{
