@@ -10,7 +10,7 @@ body{
 }
 
 /* mobile screen */
-@media (max-width: 576px) {
+@media (min-width: 0px) and (max-width: 576px){
     /* title*/
     h2{
         color: #3A3A3A;
@@ -191,7 +191,7 @@ body{
     }
 }
 /* tablet/ipad screen */
-@media (min-width: 577px) {
+@media (min-width: 577px) and (max-device-width: 768px){
     /* title*/
     h2{
         color: #3A3A3A;
@@ -374,7 +374,7 @@ body{
     
 }
 /* laptop/pc screen */
-@media (min-width: 769px) {
+@media (min-width: 769px){
     .firstSection{
         display: flex;
         margin: 5% 5% 0 5%;
@@ -460,6 +460,7 @@ body{
     .products{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-gap: 40px;
         justify-content: center;
         padding: 30px 50px;
